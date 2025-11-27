@@ -16,6 +16,7 @@ The analyses require R and the following packages:
 install.packages("remotes")
 remotes::install_github("MRCIEU/TwoSampleMR")
 devtools::install_github("mrcieu/ieugwasr")
+install.packages("data.table")
 install.packages("coloc")
 ```
 
@@ -31,6 +32,10 @@ The analytical workflow is divided into four core scripts:
    Conducts colocalization analysis to evaluate whether the genetic associations for GLP-1R expression and the outcomes share a common causal variant.
 
 This code repository is permanently archived on Zenodo: https://doi.org/10.5281/zenodo.17734444
+        
+        
+        
+        
         
         
         
